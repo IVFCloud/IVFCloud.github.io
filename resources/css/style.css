@@ -1,0 +1,57 @@
+body,
+html {
+    background-color: black;
+    height: 100%;
+}
+
+/* NAV */
+
+.navbar-fixed {
+    position: absolute;
+    z-index: 999999999;
+}
+
+/* HOME */
+
+.home {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-image {
+    /* The image used */
+    background-image: url("img/hero-image.png");
+
+    /* Set a specific height */
+    height: 100vh;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+
+.hero-text {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.hero-text img {
+    transform: scale(.75);
+}
+
+/* SERVICES */
+
+.services {
+    background-color: skyblue;
+    height: 100vh;
+    width: 100%;
+}
