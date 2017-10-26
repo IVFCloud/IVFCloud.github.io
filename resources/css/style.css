@@ -51,6 +51,9 @@ html {
 /* SERVICES */
 
 .services {
-    background-color: cadetblue;
+    background-image: url(img/hero-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
 }
