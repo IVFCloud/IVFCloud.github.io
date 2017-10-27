@@ -67,7 +67,7 @@ html {
 
 .contact {
     background-color: white;
-    height: 100vh;
+    height: auto;
     overflow: hidden;
 }
 
