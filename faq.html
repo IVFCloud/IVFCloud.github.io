@@ -24,7 +24,7 @@
 <body>
     <div class="navbar-fixed">
         <nav class="white" role="navigation">
-            <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo"><img src="resources/img/nav-logo.png" /></a>
+            <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo"><i class="black-text material-icons">cloud</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a class="black-text" href="services.html">Services</a></li>
                     <li><a class="black-text" href="faq.html">FAQ</a></li>
@@ -40,6 +40,7 @@
             </div>
         </nav>
     </div>
+
     <section class="services">
         <div class="section no-pad-bot" id="index-banner">
             <div class="container">
@@ -52,9 +53,9 @@
                 </div>
                 <div class="row">
                     <ul class="collection indigo-text faq-list">
-                        <li class="collection-item">Why is doing your practice’s IT the old on-site way so expensive and how is IVF Cloud better?</li>
-                        <li class="collection-item">What is my Total Cost of Ownership by doing it the old way versus IVFCloud?</li>
-                        <li class="collection-item">What are the Business Benefits of IVFCloud versus continuing to do it the old way?</li>
+                        <li class="collection-item"><a class="modal-trigger" data-target="modal4">Why is doing your practice’s IT the old on-site way so expensive and how is IVF Cloud better?</a></li>
+                        <li class="collection-item"><a class="modal-trigger" data-target="modal5">What is my Total Cost of Ownership by doing it the old way versus IVFCloud?</a></li>
+                        <li class="collection-item"><a class="modal-trigger" data-target="modal5">What are the Business Benefits of IVFCloud versus continuing to do it the old way?</a></li>
                         <li class="collection-item"><a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="We do not charge any upfront costs such as hardware, software or project fees to stand up our private cloud platform, saving you from having to make any capital investments. Once we have reached an agreement, you will be invoiced the monthly fee based on the number of users on the platform, and as you add users, your fee will increase concurrent with the per user fee in your agreement. On the inverse side, if your user count decreases, your invoice will decrease concurrent with the number of users that have gone away. Your minimum fee will be the floor price established in your agreement. We believe this makes it so much easier for you to budget your IT costs as part of your overall employee expense, making it easier for you to account for and allocate those expenses.">So how much do I have to pay to get on your platform?</a></li>
                         <li class="collection-item"><a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="We are proud to say we have never had a significant or major service failure on our platform. While we have SLA’s built into the agreement for platform uptime and performance, we have never had to pay any penalties under our SLA’s.">Have you ever had a major service failure or significant downtime on your hosted platform?</a></li>
                         <li class="collection-item"><a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="We build redundancies into the platform to ensure its availability, since we understand as prudent business people that downtime means a significant expense and potential loss to our clients">How do you mitigate any major downtime on your platform?</a></li>
@@ -69,25 +70,49 @@
                         <li class="collection-item"><a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="We provide a robust set of reports on platform performance, security, bandwidth utilization, etc. Sample reports are available upon request.">What kind of reports do you provide on your platform performance?</a></li>
 
                     </ul>
-                </div>
+                    <div id="modal4" class="modal">
+                        <div class="modal-content">
+                            <img class="responsive-img" src="resources/img/TheOldWay.jpg" />
+                            <img class="responsive-img" src="resources/img/IVFCloud.jpg" />
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-indigo btn-flat"><i class="material-icons">close</i></a>
+                        </div>
+                    </div>
+                    <div id="modal5" class="modal">
+                        <div class="modal-content">
+                            <img class="responsive-img" src="resources/img/TotalCost.jpg" />
+                            <img class="responsive-img" src="resources/img/CloudSavings.jpg" />
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-indigo btn-flat"><i class="material-icons">close</i></a>
+                        </div>
+                    </div>
+                    <div id="modal6" class="modal">
+                        <div class="modal-content">
+                            <img class="responsive-img" src="resources/img/BusinessBenefits.jpg" />
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-indigo btn-flat"><i class="material-icons">close</i></a>
+                        </div>
+                    </div>
 
+                </div>
+                <br>
             </div>
-            <br>
-        </div>
     </section>
     <footer class="grey darken-2 page-footer">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
                     <h5 class="white-text">IVFCloud</h5>
-                    <p class="grey-text text-lighten-4">Placeholder Text</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Links</h5>
                     <ul>
                         <li><a class="grey-text text-lighten-3" href="about.html">About Us</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#">Contact</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#">Resources</a></li>
+                        <li><a class="grey-text text-lighten-3" href="contact.html">Contact</a></li>
+                        <li><a class="grey-text text-lighten-3" href="under-construction.html">Resources</a></li>
                     </ul>
                 </div>
             </div>

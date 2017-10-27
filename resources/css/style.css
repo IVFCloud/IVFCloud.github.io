@@ -48,7 +48,7 @@ html {
     transform: scale(.75);
 }
 
-/* SERVICES */
+/* PAGES W/ CLOUD BG */
 
 .services {
     background-image: url(img/hero-image.png);
@@ -56,4 +56,23 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+}
+
+/* OTHER PAGES */
+
+.about {
+    background-color: cadetblue;
+    overflow: hidden;
+}
+
+.contact {
+    background-color: white;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.under-construction {
+    background-color: white;
+    height: 100vh;
+    overflow:hidden;
 }
