@@ -19,24 +19,38 @@ html {
 }
 
 .hero-image {
-    /* The image used */
     background-image: url("img/hero-image.png");
-
-    /* Set a specific height */
-    height: 100vh;
-
-    /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
     opacity: 0.7;
     overflow: hidden;
     position: relative;
 }
 
-/* Place text in the middle of the image */
+/* Place logo in the middle of the image */
 
-.hero-text {
+.float-box {
+    animation: float 6s ease-in-out infinite;
+    margin-top: -24%;
+    transform: translatey(0px);
+    z-index: 100;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+.splash-logo {
     left: 50%;
     position: absolute;
     top: 50%;
@@ -44,7 +58,7 @@ html {
     z-index: 100;
 }
 
-.hero-text img {
+.splash-logo img {
     transform: scale(.75);
 }
 
@@ -74,5 +88,5 @@ html {
 .under-construction {
     background-color: white;
     height: 100vh;
-    overflow:hidden;
+    overflow: hidden;
 }
